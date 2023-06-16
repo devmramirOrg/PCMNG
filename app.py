@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, redirect, url_for
 import tkinter as tk
 from threading import Thread
 import time
-from test import asker
+from asker import asker
 from ip_catcher import get_router_ip
 import time
 import io
